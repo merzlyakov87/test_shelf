@@ -5,15 +5,12 @@ class TestFeatureControllerImpl extends TestFeatureController {
   @override
   Response getIndex(Request req) {
     //TODO: call UseCase or Service!
-    print('call getIndex');
     return Response.ok("testFeatureController");
   }
 
   @override
   Response getAll(Request req) {
-    print('call getAll');
     return Response.ok("testFeatureController1");
-    // return Response.notFound('not found');
   }
 
   @override
